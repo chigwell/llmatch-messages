@@ -8,13 +8,13 @@ def read(fname):
 
 
 install_requires = [
-    'langchain-llm7==2025.05.91202',
+    'langchain-llm7==2025.05.91116',
     'langchain-core==0.3.51',
 ]
 
 setuptools.setup(
     name='llmatch-messages',
-    version='2025.5.91122',
+    version='2025.5.91204',
     author='Eugene Evstafev',
     author_email='chigwel@gmail.com',
     description='Reliable LLM interaction with pattern matching and retries.',

@@ -184,7 +184,6 @@ def llmatch(
             last_error = f"Exception during LLM invocation: {e}"
             if verbose:
                 print(f"Error: {last_error}")
-            exit()
             current_messages.append(AIMessage(content=f"System notice: An error occurred processing the last turn: {str(e)}"))
             current_messages.append(HumanMessage(content=[{"type": "text", "text": f"Instruction: An unexpected error occurred. Let's try that again. Error details for context (if helpful): {last_error}"}]))
 

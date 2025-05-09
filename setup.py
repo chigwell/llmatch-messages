@@ -8,7 +8,7 @@ def read(fname):
 
 
 install_requires = [
-    'langchain-llm7==2025.05.91116',
+    'langchain-llm7==2025.05.91202',
     'langchain-core==0.3.51',
 ]
 

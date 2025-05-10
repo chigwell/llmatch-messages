@@ -14,7 +14,7 @@ install_requires = [
 
 setuptools.setup(
     name='llmatch-messages',
-    version='2025.5.91204',
+    version='2025.5.100841',
     author='Eugene Evstafev',
     author_email='chigwel@gmail.com',
     description='Reliable LLM interaction with pattern matching and retries.',

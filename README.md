@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/llmatch-messages.svg)](https://badge.fury.io/py/llmatch-messages)
+[![PyPI version](https://badge.fury.io/py/llmatch_messages.svg)](https://badge.fury.io/py/llmatch-messages)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Downloads](https://static.pepy.tech/badge/llmatch-messages)](https://pepy.tech/project/llmatch-messages)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)

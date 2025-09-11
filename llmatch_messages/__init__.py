@@ -113,9 +113,11 @@ def llmatch(
 
 
         try:
-            print(current_messages)
             response = llm.invoke(current_messages)
-
+            if verbose:
+                print("LLM invocation successful.")
+                print(f"LLM Response Object Type: {type(response).__name__}")
+                print(f"LLM Response Object: {response}")
             raw_response = response
 
             # 1. Validate response structure
